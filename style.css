@@ -1,6 +1,18 @@
 body{
     background-color: blueviolet;
 }
+h1{
+    color: white;
+    text-align: center;
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
 .fomulario{
     margin-left: 15px;
     margin-bottom: 20px;
