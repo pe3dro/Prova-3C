@@ -2,22 +2,131 @@ body{
     background-color: blueviolet;
 }
 .fomulario{
-  color: azure;
-
+    margin-left: 15px;
+    margin-bottom: 20px;
 }
-.mainmenubutton{
-    background-color: white;
-    color: black;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+    color: gray;
     border: none;
-    cursor: pointer;
-    padding:10px;
-    position: relative;
-    top:-280px;
+ }
+#login-container{
+    background-color: #fff;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px  30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
 }
-.dropdown-child{
-    display: none;
-    position: relative;
-    top: -280px;
-    background-color: white;
-    min-width: 200px;
+
+label, input{
+    display: block;
+    width: 100%;
+    text-align: left;
+ }
+label{
+font-weight: bold;
+}
+
+input{
+border-bottom: 2px  solid  #323232;
+padding: 10px;
+font-size: 1rem;
+margin-bottom: 20px;
+}
+
+input:focus{
+border-bottom: 2px solid #08558b;
+}
+
+#forgot-pass{
+text-align: right;
+display: block;
+}
+
+input[type="submit"]{
+text-align: center;
+text-transform: uppercase;
+font-weight: bold;
+border: none;
+height: 40px;
+border-radius: 20px;
+margin-top: 30px;
+color: #fff;
+background-color: violet;
+cursor: pointer;
+}
+input[type="submit"]:hover{
+background-color: purple;
+transition: .5s;
+}
+CSS
+* {
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:12px;
+}
+
+ul {
+    margin: 0;
+    padding:0;
+}
+
+li {
+    list-style: none; 
+    margin: 10px;
+    display: inline;
+}
+li a {
+    padding: 5px 10px; 
+    margin:0;
+    border: 0px solid #f00; 
+    background: #903;
+    text-decoration: none;
+    color:#FFF;
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+li a:hover {
+    background: #CCC;
+    color: #000; 
+    border-color: #000;
+}
+* {
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:12px;
+}
+ 
+ul {
+    margin: 0;
+    padding:0;
+}
+ 
+li {
+    list-style: none; 
+    margin: 10px;
+    display: inline;
+}
+li a {
+    padding: 5px 10px; 
+    margin:0;
+    border: 0px solid purple; 
+    background: violet;
+    text-decoration: none;
+    color:#FFF;
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+li a:hover {
+    background: #CCC;
+    color: #000; 
+    border-color: #000;
 }

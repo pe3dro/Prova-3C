@@ -8,19 +8,30 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="form-container">
     <form class="formulario">
         <label for="email">Email</label>
             <input type="email" name="email" id="email" placeholder="Digite seu email" autocomplete="off" required>
             <label for="password">Senha</label>
             <input type="password" name="password" id="password" placeholder="Digite sua senha" required>
-            <input type="submit" value="enviar" name="enviar" href="certo.html">
+            <input type="submit" value="enviar" name="enviar" onclick="certo(); return false">
+            <a href="index.html">voltar</a>
     </form>
+</div>
     <script>
         function certo()
-        {
-            alert("Parabens")
+       {
+        var login =  document.getElementById('email').value;
+        var password = document.getElementById('password').value;
+
+        if(login == "pedro@gmail.com" && password == "123"){
+            alert("logado");
             window.location = "certo.html";
         }
+       else{
+        alert('erro ao logar');
+       }
+       }
     </script>
 </body>
 </html>
